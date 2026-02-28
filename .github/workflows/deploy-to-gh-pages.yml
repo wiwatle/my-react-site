@@ -33,4 +33,5 @@ jobs:
         with:
           #deploy_key: ${{ secrets.DEPLOY_PRIVATE_KEY }}
           github_token: ${{ secrets.GIHUB_TOKEN }}
-          publish_dir: ./dist
+          #publish_dir: ./dist
+          publish_dir: ./public
